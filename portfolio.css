@@ -1,0 +1,771 @@
+ html,body{
+    margin: 0;
+    padding: 0;
+ }
+body {  
+    font-family: 'Roboto', sans-serif;  
+}
+    .fas{
+        font-weight: 100;
+    }
+    @keyframes progress-animation {  
+        0% { width: 10%; }  
+        100% { width: 95%;}
+     }
+      /* .progress{ 
+        animation: progress-animation 2s ease-in-out forwards;  
+      }  */
+      .skills-div:hover .progress{
+        animation: progress-animation 2s ease-in-out forwards;
+      }
+    @keyframes animation-bar{
+     0%{width:10%}
+     100%{width:85%}
+    }
+    /* .progress2{
+        animation:animation-bar 2s ease-in-out forwards ;
+    } */
+     .skills-div:hover .progress2{
+        animation:animation-bar 2s ease-in-out forwards ;
+
+     }
+
+    @keyframes animation-bar2{
+        0%{width:10%}
+        100%{width:90%}
+    }
+    /* .progress3{
+        animation: animation-bar2 2s ease-in-out forwards;
+    } */
+     .skills-div:hover .progress3{
+        animation: animation-bar2 2s ease-in-out forwards;
+
+     }
+  
+.child{
+    transition:transform 0.5s ease;
+    transform: scale(0);
+}
+.parent:hover .child{
+   transform: scale(0.8);
+}
+
+/* Responsive Work */
+/* 
+@media (max-width:576px) {
+    .webkit{
+        font-size: 75px !important;
+    }
+    .webkit-div{
+        width: 35rem !important;
+    }
+    .webkit-txt{
+        font-size: 28px !important;
+    }
+    .links,.button1{
+        visibility: hidden;
+    }
+    .logo-txt h1{
+        font-size:32px;
+    }
+    .logo-txt{
+        margin-left: 8px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .header{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .head{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .nav{
+        visibility: visible ;
+        font-size: 30px;
+        color: rgb(153, 142, 142); 
+    }
+    .hero{
+        width: 35.5rem !important;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35.7rem !important;
+
+    }
+    .links{
+        width: 1rem !important;
+        visibility: hidden;
+    }
+    .left{
+        margin-top: 10px;
+    }
+    .right{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+     .right .i-m{
+     margin-top: 17px;
+     font-size: 35px;
+     margin-bottom: 17px;
+    }
+     .name{
+        font-size: 46px !important;
+        margin-bottom: 17px;
+    }
+    
+    .web{
+        margin-top: 8px;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        margin-top: 13rem;  
+        width: 34rem !important;
+    }
+    
+    .left1{
+        display: flex;
+        justify-content: center;
+        width: 34rem !important;
+    }
+    
+    .my-img{
+        width: 34rem !important;
+        height: 27rem !important;
+        margin-left: 40px;
+    }
+    .right1{
+     margin-top:15px;
+      place-items: start;
+      float: left;
+      align-self: self-start;
+      width: 34rem !important;
+      margin-left: 0px !important;
+    }
+    .para{
+        margin-top: 3px !important;
+        margin-left: 20px;
+        width: 30rem !important;
+    }
+    .ui{
+        margin-top: 3px !important;
+       float: left !important;
+       margin-left: 20px !important;
+    }
+    .info-div{
+        margin-left: 20px !important;
+        place-items: start;
+        float: left;
+        align-self: self-start;
+    }
+    .Experience-txt{
+        margin-top: 26rem !important;
+    }
+    .webkit-text{
+        font-size: 20px !important;
+    } 
+    .experience-div{
+        flex-direction: column;
+        margin-left: 0px !important;
+        width:33rem !important;
+    }
+    .My-experience{
+        margin-left: 14px !important;
+        margin-top: 2rem !important;
+    }
+    .my-education{
+        margin-left: 10px !important;
+        margin-top: 2rem !important;
+    }
+   .right3{
+    margin-left: 0px !important;
+   }
+   .skills-div{
+    margin-left: 40px !important;
+    width: 28rem !important;
+   }
+   .services-div{
+    width: 35rem !important;
+   }
+   .gallry-buttons{
+    width: 35rem !important;
+   }
+   .gallry-div{
+    width: 36rem !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+   }
+   .gallery-txt{
+    margin-top: 52rem  !important;
+    align-items: center !important;
+    justify-content: center;
+   }
+   .review-div{
+    width: 34rem !important;
+   }
+   .blog-div1{
+    width: 34rem !important;
+   }
+  .para2{
+    width: 35rem !important;
+  }
+  .webkt{
+    font-size: 80px !important;
+  }
+  .contact-div{
+    width: 34rem !important;
+  }
+ .input-fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center ;
+   margin-left: 0px !important;
+ }
+ .emal{
+    margin-top: 1.2rem;
+    margin-left: -4px  !important;
+    width: 23rem !important;
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+ }
+ .subjct{
+    width: 23rem !important;
+ }
+ .messag{
+    width: 23rem !important;
+    height: 7rem !important;
+ }
+ .btn-msg{
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center;
+ }
+
+ .footer-div{
+    width: 36rem !important;
+    height: 14rem !important;
+ }
+ .butn{
+    margin-left: 0px !important;
+ }
+ .bottom{
+    margin-left: 0px !important;
+    width: 25rem !important;
+ }
+ .main{
+    width: 35rem !important;
+ }
+}  */
+
+/* 
+@media (max-width:768px) {
+    .webkit{
+        font-size: 90px !important;
+    }
+    .webkit-div{
+        width: 47.2rem !important;
+    }
+    .webkit-txt{
+        font-size: 40px !important;
+    }
+    .links,.button1{
+        visibility: hidden;
+    }
+    .logo-txt h1{
+        font-size:32px;
+        margin-left: 0px !important;
+    }
+    .logo-txt{
+        margin-left: 0px !important;
+        display: flex;
+        margin-right: 20px;
+    }
+    .header{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .head{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .nav{
+        visibility: visible ;
+        font-size: 35px;
+        color: rgb(153, 142, 142);
+    }
+    .hero{
+        width: 47rem !important;
+        height: 50rem !important;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 47rem !important;
+
+    }
+    .links{
+        width: 1rem !important;
+        visibility: hidden;
+    }
+    .left{
+        margin-top: 10px;
+    }
+    .hero-img{
+        width: 28rem !important;
+        height: 28rem !important;
+    }
+    .right{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+     .right .i-m{
+     margin-top: 17px;
+     font-size: 35px;
+     margin-bottom: 17px;
+    }
+     .name{
+        font-size: 54px !important;
+        margin-bottom: 17px;
+    }
+    
+    .web{
+        margin-top: 8px;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        margin-top: 13rem;  
+        width: 40rem !important;
+    }
+    
+    .left1{
+        display: flex;
+        justify-content: center;
+        width: 56rem !important;
+        margin-top: 220px !important;
+    }
+    
+    .my-img{
+        width: 45rem !important;
+        height: 40rem !important;
+        margin-left: 130px;
+    }
+    .right1{
+     margin-top:15px;
+      place-items: start;
+      float: left;
+      align-self: self-start;
+      width: 34rem !important;
+      margin-left: 0px !important;
+    }
+    .para{
+        margin-top: 3px !important;
+        margin-left: 20px;
+        width: 45rem !important;
+    }
+    .ui{
+        margin-top: 3px !important;
+       float: left !important;
+       margin-left: 20px !important;
+       width: 44rem !important  ;
+    }
+    .info-div{
+        margin-left: 70px !important;
+        place-items: start;
+        float: left;
+        align-self: self-start;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 200px !important;
+        width: 32.5rem !important;
+    }
+    .Experience-txt{
+        margin-top: 26rem !important;
+    }
+    .webkit-text{
+        font-size: 20px !important;
+    } 
+    .experience-div{
+        flex-direction: column;
+        margin-left: 120px !important;
+        width:33rem !important;
+    }
+    .My-experience{
+        margin-left: 14px !important;
+        margin-top: 2rem !important;
+    }
+    .my-education{
+        margin-left: 10px !important;
+        margin-top: 2rem !important;
+    }
+    .left3{
+        margin-left: 100px;
+    }
+   .right3{
+    margin-left: 100px !important;
+   }
+   .skills-div{
+    margin-left: 40px !important;
+    width: 28rem !important;
+   }
+   .services-div{
+    width: 35rem !important;
+    margin-top: 20px !important;
+    margin-left: 100px !important;
+   }
+   .gallry-buttons{
+    width: 35rem !important;
+    margin-left: 80px;
+   }
+   .gallry-div{
+    width: 36rem !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 80px !important;
+    display: grid ;
+    grid-template-columns: 1fr !important;
+    grid-column: 1fr !important;
+   }
+   .gallery-txt{
+    margin-top: 52rem  !important;
+    align-items: center !important;
+    justify-content: center;
+   }
+   .review-div{
+    width: 45rem !important;
+   }
+   .blog-div1{
+    width: 34rem !important;
+    margin-left: 100px !important;
+   }
+  .para2{
+    width: 35rem !important;
+  }
+  .webkt{
+    font-size: 80px !important;
+  }
+  .contact-div{
+    width: 32rem !important;
+    margin-top: 0px !important;
+  }
+    .input-fields{
+        display: flex;
+        justify-content: center;
+       align-items: baseline ;
+       margin-left: 0px !important;
+    }
+    .nme{
+        width: 15rem !important;
+        margin-left: 220px !important;
+    }
+ .emal{
+    margin-top: 1.2rem;
+    margin-left: 0px  !important;
+    width: 15rem !important;
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+ }
+ .subjct{
+    width: 31rem !important;
+    margin-left: 13rem;
+    margin-bottom: 0px !important;
+ }
+ .messag{
+    margin-top: 0px !important;
+    width: 31rem !important;
+    height: 10rem !important;
+    margin-left: 13rem;
+ }
+ .btn-msg{
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center;
+    margin-left: 15rem !important;
+ }
+
+ .footer-div{
+    width: 46.8rem !important;
+    height: 14rem !important;
+ }
+ .butn{
+    margin-left: 0px !important;
+ }
+ .bottom{
+    margin-left: 0px !important;
+    width: 25rem !important;
+ }
+ .main{
+    width: 35rem !important;
+ }
+    
+} */
+@media (max-width:992px){
+    .webkit{
+        font-size: 90px !important;
+    }
+    .webkit-div{
+        width: 47.2rem !important;
+    }
+    .webkit-txt{
+        font-size: 40px !important;
+    }
+    /* .links,.button1{
+        visibility: hidden;
+    } */
+    .logo-txt h1{
+        font-size:32px;
+        margin-left: 0px !important;
+    }
+    .logo-txt{
+        margin-left: 0px !important;
+        display: flex;
+        margin-right: 20px;
+    }
+    .header{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .head{
+        width: 33rem !important;
+        margin-left: 0px !important;
+    }
+    .nav{
+        /* visibility: visible ; */
+        font-size: 35px;
+        color: rgb(153, 142, 142);
+    }
+    .hero{
+        width: 62rem !important;
+        height: 50rem !important;
+    }
+    .navbar{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 62rem !important;
+    }
+    .links{
+        /* display: flex; */
+        /* width: 50rem !important; */
+        /* visibility: hidden; */
+    }
+
+    .left{
+        margin-top: 10px;
+    }
+    .hero-img{
+        width: 28rem !important;
+        height: 28rem !important;
+    }
+    .right{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+     .right .i-m{
+     margin-top: 17px;
+     font-size: 35px;
+     margin-bottom: 17px;
+    }
+     .name{
+        font-size: 54px !important;
+        margin-bottom: 17px;
+    }
+    
+    .web{
+        margin-top: 8px;
+    }
+    .about-me{
+        display: flex;
+        flex-direction: column;
+        margin-top: 13rem;  
+        width: 40rem !important;
+    }
+    
+    .left1{
+        display: flex;
+        justify-content: center;
+        width: 56rem !important;
+        margin-top: 220px !important;
+    }
+    
+    .my-img{
+        width: 45rem !important;
+        height: 40rem !important;
+        margin-left: 130px;
+    }
+    .right1{
+     margin-top:15px;
+      place-items: start;
+      float: left;
+      align-self: self-start;
+      width: 34rem !important;
+      margin-left: 0px !important;
+    }
+    .para{
+        margin-top: 3px !important;
+        margin-left: 20px;
+        width: 45rem !important;
+    }
+    .ui{
+        margin-top: 3px !important;
+       float: left !important;
+       margin-left: 20px !important;
+       width: 44rem !important  ;
+    }
+    .info-div{
+        margin-left: 70px !important;
+        place-items: start;
+        float: left;
+        align-self: self-start;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 200px !important;
+        width: 32.5rem !important;
+    }
+    .Experience-txt{
+        margin-top: 26rem !important;
+    }
+    .webkit-text{
+        font-size: 20px !important;
+    } 
+    .experience-div{
+        flex-direction: column;
+        margin-left: 120px !important;
+        width:33rem !important;
+    }
+    .My-experience{
+        margin-left: 14px !important;
+        margin-top: 2rem !important;
+    }
+    .my-education{
+        margin-left: 10px !important;
+        margin-top: 2rem !important;
+    }
+    .left3{
+        margin-left: 100px;
+    }
+   .right3{
+    margin-left: 100px !important;
+   }
+   .skills-div{
+    margin-left: 40px !important;
+    width: 28rem !important;
+   }
+   .services-div{
+    width: 35rem !important;
+    margin-top: 20px !important;
+    margin-left: 100px !important;
+   }
+   .gallry-buttons{
+    width: 35rem !important;
+    margin-left: 80px;
+   }
+   .gallry-div{
+    width: 36rem !important;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 80px !important;
+    display: grid ;
+    grid-template-columns: 1fr !important;
+    grid-column: 1fr !important;
+   }
+   .gallery-txt{
+    margin-top: 52rem  !important;
+    align-items: center !important;
+    justify-content: center;
+   }
+   .review-div{
+    width: 45rem !important;
+   }
+   .blog-div1{
+    width: 34rem !important;
+    margin-left: 100px !important;
+   }
+  .para2{
+    width: 35rem !important;
+  }
+  .webkt{
+    font-size: 80px !important;
+  }
+  .contact-div{
+    width: 32rem !important;
+    margin-top: 0px !important;
+  }
+    .input-fields{
+        display: flex;
+        justify-content: center;
+       align-items: baseline ;
+       margin-left: 0px !important;
+    }
+    .nme{
+        width: 15rem !important;
+        margin-left: 220px !important;
+    }
+ .emal{
+    margin-top: 1.2rem;
+    margin-left: 0px  !important;
+    width: 15rem !important;
+ }
+ .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+ }
+ .subjct{
+    width: 31rem !important;
+    margin-left: 13rem;
+    margin-bottom: 0px !important;
+ }
+ .messag{
+    margin-top: 0px !important;
+    width: 31rem !important;
+    height: 10rem !important;
+    margin-left: 13rem;
+ }
+ .btn-msg{
+    display: flex !important;
+    align-self: center !important;
+    justify-content: center;
+    margin-left: 15rem !important;
+ }
+
+ .footer-div{
+    width: 46.8rem !important;
+    height: 14rem !important;
+ }
+ .butn{
+    margin-left: 0px !important;
+ }
+ .bottom{
+    margin-left: 0px !important;
+    width: 25rem !important;
+ }
+ .main{
+    width: 35rem !important;
+ }
+}
