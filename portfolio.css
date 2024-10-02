@@ -51,7 +51,7 @@ body {
 }
 
 /* Responsive Work */
-/* 
+
 @media (max-width:576px) {
     .webkit{
         font-size: 75px !important;
@@ -268,9 +268,9 @@ body {
  .main{
     width: 35rem !important;
  }
-}  */
+} 
 
-/* 
+
 @media (max-width:768px) {
     .webkit{
         font-size: 90px !important;
@@ -519,7 +519,7 @@ body {
     width: 35rem !important;
  }
     
-} */
+}
 @media (max-width:992px){
     .webkit{
         font-size: 90px !important;
