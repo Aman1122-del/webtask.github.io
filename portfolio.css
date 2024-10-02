@@ -269,8 +269,6 @@ body {
     width: 35rem !important;
  }
 } 
-
-
 @media (max-width:768px) {
     .webkit{
         font-size: 90px !important;
